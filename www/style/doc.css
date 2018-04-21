@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+}
+A{
+	/*text-decoration:none;*/
+}
+A.a_left_menu {
+	FONT: 15px; 
+	COLOR: #ffffff; 
+	text-decoration:none;
+}
+A.a_left_menu_sel {
+	FONT: 15px; 
+	COLOR: #b80d0d; 
+	font-weight:bold;
+	text-decoration:none;
+}
+A.a_tool_bar {
+	FONT: 18px; 
+	COLOR: #000000; 
+	font-weight:bold;
+	text-decoration:none;
+}
+A.a_tool_bar_sel {
+	FONT: 18px; 
+	COLOR: #b80d0d; 
+	font-weight:bold;
+	text-decoration:none;
+}
+A.a_other {
+	FONT: 15px; 
+	COLOR: #FFFFFF;
+	font-weight:bold;
+	text-decoration:none;
+}
+A.a_page {
+	FONT: 15px; 
+	COLOR: #000000; 
+	font-weight:bold;
+	/*text-decoration:none;*/
+}
+A.a_addr {
+	FONT: 15px; 
+	COLOR: #b80d0d; 
+	font-weight:bold;
+	text-decoration:none;
+}
+A.a_page_sel {
+	FONT: 15px; 
+	COLOR: #b80d0d; 
+	font-weight:bold;
+	BACKGROUND-COLOR: #afafaf;
+	/*text-decoration:none;*/
+}
+A:hover {
+	COLOR: #b80d0d;
+	font-weight:bold;
+}
+BODY {
+	FONT-SIZE: 15px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+TD {
+	FONT-SIZE: 15px;
+}
+.txtBoxStyle1 {
+	BORDER-RIGHT: #646f86 1px solid; 
+	BORDER-TOP: #646f86 1px solid; 
+	FONT-SIZE: 15px; 
+	BORDER-LEFT: #646f86 1px solid; 
+	COLOR: #485677;
+	BORDER-BOTTOM: #646f86 1px solid; 
+	BACKGROUND-COLOR: #ffffff;
+}
+
+td.leftmenu{
+	FONT-SIZE: 15px;
+	height: 30px;
+	text-align: left;
+}
+
+td.lable{
+	FONT-SIZE: 15px;
+	width: 100px;
+	background:#E4E4E4;
+	text-align: left;
+	/*font-weight:bold;*/
+	height:24px;
+}
+td.lable_ex{
+	FONT-SIZE: 15px;
+	background:#E4E4E4;
+	text-align: center;
+	font-weight:bold;
+	height:24px;
+}
+td.subtitle{
+/*background:url(../images/subtitle_bg.png) repeat-x;*/
+font-size: 18px;
+font-weight:bold;
+text-align:left;
+color: #000080;
+height:42px;
+}
+td.subsubtitle{
+/*background:url(../images/subtitle_bg.png) repeat-x;*/
+font-size: 15px;
+font-weight:bold;
+text-align:left;
+color: #000040;
+height:30px;
+}
+td.field_data1{
+background:#e6f2fa;
+height:20px;
+}
+td.field_data2{
+background:#fbefef;
+}
+td.field_highlight{
+font-size: 13px;
+background:#99FF00;
+}
+
+span.span_tip
+{
+font-size: 15px;
+}
+
+input[type="text"], input[type="password"], select
+{
+        border: 1px solid rgb(149, 149, 149);
+        padding: 4px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, select:focus
+{
+        border: 2px solid rgb(149, 149, 149);
+        padding: 3px;
+        background-color: #FCFFCD;
+}
+
+
+input[type="text"]:hover, input[type="password"]:hover, select:hover
+{
+        border: 2px solid rgb(149, 149, 149);
+        padding: 3px;
+}
+input[readonly="readonly"], input[readonly="readonly"]:hover, input[readonly="readonly"]:focus
+{
+	background-color:#FFFAF0;
+	color: #404040;
+}
+
+input[readonly], input[readonly]:hover, input[readonly]:focus
+{
+	background-color:#FFFAF0;
+	color: #404040;
+}
+
+input[type=submit],input[type=button]
+{
+    border: solid 1px #B0C4DE;
+    background-color:#e8eff4;
+    padding:4px;
+}
+input[type=submit]:hover, input[type=button]:hover, input[type=submit]:focus, input[type=button]:focus
+{
+    background-color:#F5FFFA;
+    font-weight:bold;
+}
+

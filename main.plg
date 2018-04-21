@@ -1,0 +1,97 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: main - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\mvp\AppData\Local\Temp\RSPD4E5.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/main.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\P4\wangdd_2015\wangdd_2015\Hi3531\MainBranche\lib\dws\Device.cpp"
+"D:\P4\wangdd_2015\wangdd_2015\Hi3531\MainBranche\lib\dws\DWConfig.cpp"
+"D:\P4\wangdd_2015\wangdd_2015\Hi3531\MainBranche\lib\dws\EWConfig.cpp"
+"D:\P4\wangdd_2015\wangdd_2015\Hi3531\MainBranche\lib\dws\Facility.cpp"
+"D:\P4\wangdd_2015\wangdd_2015\Hi3531\MainBranche\lib\dws\IniFile.cpp"
+"D:\P4\wangdd_2015\wangdd_2015\Hi3531\MainBranche\lib\dws\main.cpp"
+"D:\P4\wangdd_2015\wangdd_2015\Hi3531\MainBranche\lib\dws\Network.cpp"
+"D:\P4\wangdd_2015\wangdd_2015\Hi3531\MainBranche\lib\dws\SysInfo.cpp"
+"D:\P4\wangdd_2015\wangdd_2015\Hi3531\MainBranche\lib\dws\TimeCfg.cpp"
+"D:\P4\wangdd_2015\wangdd_2015\Hi3531\MainBranche\lib\dws\User.cpp"
+"D:\P4\wangdd_2015\wangdd_2015\Hi3531\MainBranche\lib\dws\WebDecoder.cpp"
+"D:\P4\wangdd_2015\wangdd_2015\Hi3531\MainBranche\lib\dws\WebSvr.cpp"
+]
+Creating command line "cl.exe @C:\Users\mvp\AppData\Local\Temp\RSPD4E5.tmp" 
+Creating temporary file "C:\Users\mvp\AppData\Local\Temp\RSPD4E6.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/main.pdb" /debug /machine:I386 /out:"Debug/main.exe" /pdbtype:sept 
+.\Debug\Device.obj
+.\Debug\DWConfig.obj
+.\Debug\EWConfig.obj
+.\Debug\Facility.obj
+.\Debug\IniFile.obj
+.\Debug\main.obj
+.\Debug\Network.obj
+.\Debug\SysInfo.obj
+.\Debug\TimeCfg.obj
+.\Debug\User.obj
+.\Debug\WebDecoder.obj
+.\Debug\WebSvr.obj
+]
+Creating command line "link.exe @C:\Users\mvp\AppData\Local\Temp\RSPD4E6.tmp"
+<h3>Output Window</h3>
+Compiling...
+Device.cpp
+d:\p4\wangdd_2015\wangdd_2015\hi3531\mainbranche\lib\dws\device.h(8) : fatal error C1083: Cannot open include file: 'define.h': No such file or directory
+DWConfig.cpp
+d:\p4\wangdd_2015\wangdd_2015\hi3531\mainbranche\lib\dws\dwconfig.h(4) : fatal error C1083: Cannot open include file: 'define.h': No such file or directory
+EWConfig.cpp
+d:\p4\wangdd_2015\wangdd_2015\hi3531\mainbranche\lib\dws\ewconfig.h(12) : fatal error C1083: Cannot open include file: 'define.h': No such file or directory
+Facility.cpp
+d:\p4\wangdd_2015\wangdd_2015\hi3531\mainbranche\lib\dws\facility.h(11) : fatal error C1083: Cannot open include file: 'sys/select.h': No such file or directory
+IniFile.cpp
+d:\p4\wangdd_2015\wangdd_2015\hi3531\mainbranche\lib\dws\inifile.cpp(139) : error C2065: 'strcasecmp' : undeclared identifier
+main.cpp
+d:\p4\wangdd_2015\wangdd_2015\hi3531\mainbranche\lib\dws\main.cpp(25) : fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory
+Network.cpp
+d:\p4\wangdd_2015\wangdd_2015\hi3531\mainbranche\lib\dws\network.h(8) : fatal error C1083: Cannot open include file: 'define.h': No such file or directory
+SysInfo.cpp
+d:\p4\wangdd_2015\wangdd_2015\hi3531\mainbranche\lib\dws\sysinfo.h(8) : fatal error C1083: Cannot open include file: 'define.h': No such file or directory
+TimeCfg.cpp
+d:\p4\wangdd_2015\wangdd_2015\hi3531\mainbranche\lib\dws\timecfg.h(8) : fatal error C1083: Cannot open include file: 'define.h': No such file or directory
+User.cpp
+d:\p4\wangdd_2015\wangdd_2015\hi3531\mainbranche\lib\dws\user.h(4) : fatal error C1083: Cannot open include file: 'define.h': No such file or directory
+WebDecoder.cpp
+d:\p4\wangdd_2015\wangdd_2015\hi3531\mainbranche\lib\dws\webdecoder.h(12) : fatal error C1083: Cannot open include file: 'define.h': No such file or directory
+WebSvr.cpp
+d:\p4\wangdd_2015\wangdd_2015\hi3531\mainbranche\lib\dws\websvr.h(6) : fatal error C1083: Cannot open include file: 'sys/ioctl.h': No such file or directory
+Error executing cl.exe.
+Creating temporary file "C:\Users\mvp\AppData\Local\Temp\RSPD7F3.tmp" with contents
+[
+/nologo /o"Debug/main.bsc" 
+.\Debug\Device.sbr
+.\Debug\DWConfig.sbr
+.\Debug\EWConfig.sbr
+.\Debug\Facility.sbr
+.\Debug\IniFile.sbr
+.\Debug\main.sbr
+.\Debug\Network.sbr
+.\Debug\SysInfo.sbr
+.\Debug\TimeCfg.sbr
+.\Debug\User.sbr
+.\Debug\WebDecoder.sbr
+.\Debug\WebSvr.sbr]
+Creating command line "bscmake.exe @C:\Users\mvp\AppData\Local\Temp\RSPD7F3.tmp"
+Creating browse info file...
+BSCMAKE: error BK1506 : cannot open file '.\Debug\Device.sbr': No such file or directory
+Error executing bscmake.exe.
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+main.exe - 13 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
